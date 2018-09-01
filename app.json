@@ -30,11 +30,11 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": 468872
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": 8e45aee065d73f2a71b664fe716e6dfd
     },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "This is required for the uploaddownload, speedtest, and telegra.ph file generator plugins.",
