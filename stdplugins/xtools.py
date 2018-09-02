@@ -22,15 +22,7 @@ async def _(event):
 			lan, username = input_str.split("|")
     
 		url = 'https://xtools.wmflabs.org/api/user/simple_editcount/'
-		if lan == 'ml':
-			project ='ml.wikipedia.org/'
-		elif lan == 'en':
-			project = 'en.wikipedia.org/'
-		else :
-			print ("invalid project code")
-			quit()
-	#project = 'ml.wikipedia.org/'
-	#username = 'mujeebcpy'
+		project = lan+'.wikipedia.org/'
 		final_url = url+project+username
 		https= urllib3.PoolManager(cert_reqs='CERT_REQUIRED',ca_certs=certifi.where())
 		r = https.request('GET', final_url)
